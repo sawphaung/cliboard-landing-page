@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  background: url(/images/bg-header-mobile.png) no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 0 3rem;
+}
+
+.header .main-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10rem 0 7rem;
+}
+
+.header .main-logo img {
+  width: 120px;
+}
+
+.header h1 {
+  color: #4b545c;
+  font-size: 4rem;
+}
+
+.header p {
+  font-size: 2rem;
+  color: #26baa4;
+  padding: 3rem 0;
+  line-height: 1.6;
+}
+
+.header .button {
+  display: block;
+  text-decoration: none;
+  padding: 2rem;
+  margin: 2rem;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.header .button-ios {
+  background-color: #26baa4;
+}
+
+.header .button-mac {
+  background-color: #6073ff;
+}
+
+.section {
+  margin: 10rem 0;
+  padding: 0 3rem;
+  text-align: center;
+}
+
+.section img {
+  margin: 3rem 0;
+}
+
+.section h1 {
+  font-size: 4rem;
+  color: #4b545c;
+}
+
+.section p {
+  font-size: 2rem;
+  color: #26baa4;
+  padding: 2rem 0 5rem;
+  line-height: 1.6;
+}
+
+.section .button {
+  display: block;
+  text-decoration: none;
+  padding: 2rem;
+  margin: 2rem;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.section .button-ios {
+  background-color: #26baa4;
+}
+
+.section .button-mac {
+  background-color: #6073ff;
+}
+
+.section-four img {
+  width: 150px;
+  display: block;
+  margin: 10rem auto;
+}
+
+.footer {
+  background-color: #f5f6f8;
+  text-align: center;
+  padding: 5rem 0 1rem;
+}
+
+.footer .logo {
+  width: 7rem;
+  margin: 1.5rem 0;
+}
+
+.footer li {
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  padding: 1.5rem 0;
+  color: #4b545c;
+  list-style: none;
+}
+
+.footer .social-icons {
+  font-size: 3rem;
+  color: #4b545c;
+  margin: 4rem;
+}
+
+.footer .social-icons > * {
+  padding: 0 3rem;
+}
+
+@media only screen and (min-width: 900px) {
+  .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .buttons .button {
+    padding: 2rem 7rem;
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .header {
+    background: url(/images/bg-header-desktop.png) no-repeat;
+    background-size: cover;
+  }
+  .section-col2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -10rem;
+  }
+  .section-col2 .contents {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin: 0 10rem;
+  }
+  .section-col2 .contents h1,
+  .section-col2 .contents p {
+    text-align: left;
+  }
+  .section-col3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .section-col3 > * {
+    padding: 3rem;
+  }
+  .section-four {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-four img {
+    margin: 5rem;
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    text-align: left;
+  }
+  .footer nav ul {
+    -webkit-column-count: 3;
+            column-count: 3;
+    margin: 0 5rem;
+  }
+  .footer nav ul li {
+    margin: 0 5rem;
+    text-align: left;
+  }
+  .footer .social-icons {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+/*# sourceMappingURL=main.css.map */
